@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "name": 1,
+      "nextNodes": [ 5 ]
+    },
+    {
+      "name": 2,
+      "nextNodes": [ 1, 6, 9 ]
+    },
+    {
+      "name": 3,
+      "nextNodes": [ 2, 6 ]
+    },
+    {
+      "name": 4,
+      "nextNodes": [ 3, 6 ]
+    },
+    {
+      "name": 5,
+      "nextNodes": [ 2, 8 ]
+    },
+    {
+      "name": 6,
+      "nextNodes": [ 3, 9 ]
+    },
+    {
+      "name": 7,
+      "nextNodes": [ 6, 11 ]
+    },
+    {
+      "name": 8,
+      "nextNodes": [ ]
+    },
+    {
+      "name": 9,
+      "nextNodes": [ 5, 8 ]
+    },
+    {
+      "name": 10,
+      "nextNodes": [ 6, 7, 9 ]
+    },
+    {
+      "name": 11,
+      "nextNodes": [ 14 ]
+    },
+    {
+      "name": 12,
+      "nextNodes": [ 8, 13 ]
+    },
+    {
+      "name": 13,
+      "nextNodes": [ 8, 9, 10, 14 ]
+    },
+    {
+      "name": 14,
+      "nextNodes": [ 10 ]
+    },
+    {
+      "name": 15,
+      "nextNodes": [ 14 ]
+    }
+  ]
+}
